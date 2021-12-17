@@ -26,20 +26,24 @@
 
     <TextView
         android:id="@+id/latitude_text"
-        android:layout_width="wrap_content"
+        android:layout_width="214dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
         android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="250dp"
         android:textIsSelectable="true"
-        android:textSize="@dimen/lat_long_text_size" />
+        android:textSize="@dimen/lat_long_text_size"
+        android:text = "Enter Password"
+
+        />
 
     <TextView
         android:id="@+id/longitude_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
+        android:layout_width="221dp"
+        android:layout_height="46dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="@dimen/text_margin"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="300dp"
         android:textIsSelectable="true"
         android:textSize="@dimen/lat_long_text_size" />
 </LinearLayout>
